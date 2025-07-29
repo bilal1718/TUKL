@@ -30,14 +30,23 @@ This repository is an implementation of the paper:
   - **Testing videos:** 100  
 - The architecture and parameters are kept the same as in the original paper.
 
+### 4. `visual_stream.ipynb`
+- My **custom architecture** for depression detection using spatial-temporal information.
+- The setup and data preprocessing kept as same as in **spatial_temporal_network.ipynb**
+- It has three architectures with slight difference to kept more local information.
+
+
 ---
 
 ## Results
+
+### spatial_temporal_network.ipynb results
 
 | Metric | Paper Results | Our Results |
 |--------|---------------|-------------|
 | MAE    | 6.00          | 9.36        |
 | RMSE   | 7.75          | 11.94       |
+
 
 - The difference in performance is due to **dataset limitations**.
 - However, all other factors are aligned with the original paper.
@@ -46,6 +55,16 @@ This repository is an implementation of the paper:
   - Improve performance further.
   - Hopefully, **beat SOTA (state-of-the-art) models**.
 
+### visual_stream.ipynb results
+
+
+| Metric | Architecture 1 | Architecture 2 | Architecture 3 |
+|--------|--------------- |----------------|----------------|
+| MAE    | 8.43           | 14.51          | 9.75           |
+| RMSE   | 10.84          | 18.50          | 11.56          |
+
+- I am working on making new architecture to take the results less than 5 MAE 
+- Also to fill the reserach gaps in this domain.
 ---
 
 ## Thanks for Reading!
