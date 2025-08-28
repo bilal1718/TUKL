@@ -23,7 +23,7 @@ Our framework achieves **state-of-the-art results** and provides an extensive **
 ## Model Architecture
 
 ![Model Architecture](figure.svg)
-**Pipeline Overview:**
+#### Pipeline Overview:
 1. **Input Modalities**  
    - Face-aligned **frames**  
    - **Facial Animation Parameters (FAPs)**  
